@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Fonts/Calibri.ttf</file>
+        <file>Images/arrowDOWN.png</file>
+        <file>Images/arrowUP.png</file>
+        <file>Fonts/FreeMono.ttf</file>
+        <file>Fonts/FreeMonoBold.ttf</file>
+        <file>Images/ESC_DIS.png</file>
+        <file>Images/ESC_EN.png</file>
+        <file>Images/SAVE_DIS.png</file>
+        <file>Images/SAVE_EN.png</file>
+        <file>Images/arrowDOWN_Dis.png</file>
+        <file>Images/arrowUP_Dis.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,41 @@
+/* MENU Vertical Slider */
+
+QSlider::groove:vertical {
+    border: 1px solid white;
+    background: black;
+    width: 2;
+    border-radius: 2px;
+}
+
+QSlider::handle:vertical {
+    height: 4px;
+    background: black;
+    border: 1px solid white;
+    border-radius: 2px;
+    margin: 0 -4px;  /* expand outside the groove */
+}
+
+QSlider::add-page:vertical {
+    border: 1px solid white;
+    background: black;
+    width: 2;
+    border-radius: 2px;
+}
+
+QSlider::sub-page:vertical {
+    border: 1px solid white;    
+    background: white;
+    width: 2;
+    border-radius: 2px;
+}
+
+/* Background labels */
+
+QStackedWidget QLabel
+{
+    color: orange;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: 500;
+    font-family: "FreeMono";
+    font-size: 21px;
+}
